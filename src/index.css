@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+  }
+
+  /* Smooth transitions for theme switching */
+  html {
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
